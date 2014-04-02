@@ -32,7 +32,7 @@
 
             <br>
             <div id="cabecera2">
-                <h3>Usuarios existentes</h3>
+                <h3>Usuarios actuales</h3>
                 <div id="usuario2">
                     <ul>
                         <c:forEach items="${usuarios}" var="usuario">
