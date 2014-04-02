@@ -3,24 +3,12 @@ body {
     padding: 0;
 } 
 
-A:LINK { 
-    color: #FFFFFF;
-    background:red;   
-}
-
-A:VISITED {
-    color:#000;
-    background:deepskyblue;
-}
-A:ACTIVE { 
-    color: #FFFFFF;
-    background:deepskyblue;   
-}
 
 A:HOVER { 
     color: #FFFFFF;
-    background:orangered;   
+    background:blue;   
 }
+
 
 #cabecera1 { 
     margin:10px 10px 0px 10px;   
@@ -68,8 +56,8 @@ A:HOVER {
 } 
 
 #contenidotext{  
-    font-family:Vivaldi, Fantasy, Sans-Serif;
-    font-size: 14pt;
+    font-family:Times New Roman;
+    font-size: 12pt;
     background-color:lemonchiffon;
 } 
 
@@ -108,34 +96,34 @@ A:HOVER {
 } 
 
 #h3primero {
-    font-family: Book Antiqua;
+    font-family: Algerian;
     color: #000;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 #h3segundo {
-    font-family: Book Antiqua;
+    font-family: Algerian;
     color: #000;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 #h3tercero {
     padding:0px 0px 5px 5px;    
-    font-family:Vivaldi, Fantasy;
-    font-size: 20pt;
+    font-family:Algerian;
+    font-size: 12pt;
     color: #000;
 }
 
 #h3contenido {
-    font-family:Vivaldi, Fantasy;
-    font-size: 20pt;
+    font-family:Algerian;
+    font-size: 12pt;
     color: #000;
 }
 
 #publica {
     padding:7px 0px 5px 5px;    
-    font-family:Vivaldi, Fantasy;
-    font-size: 20pt; 
+    font-family:Algerian;
+    font-size: 10pt; 
     font-weight: bold;
 }
 

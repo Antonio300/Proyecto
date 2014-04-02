@@ -43,11 +43,8 @@ public class ControladorCuenta {
     }
 
     @RequestMapping(value = "cuentanueva.html", method = RequestMethod.POST)
-    public String procesarCuentaNueva(@Valid @ModelAttribute("usuario") Usuario usuario, Model model) {
+    public String procesarCuentaNueva(@ModelAttribute @Valid  Usuario usuario, Model model) {
         Boolean resultado = servicioCuenta.guardar(usuario);
-//      model.addAttribute("usuario", usuario);
-//      model.addAttribute("info", resultado ? "Cuenta creada" : "Cuenta no creada");
-//      model.addAttribute("usuarios", servicioCuenta.usuariosRegistrados());
         List<Contenido> contenidos = servicioCuenta.contenidos(usuario.getId());
         model.addAttribute("vacio", contenidos.isEmpty());
         model.addAttribute("contenidos", contenidos);

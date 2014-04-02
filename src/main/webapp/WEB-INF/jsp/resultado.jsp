@@ -5,7 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Resultado</title>
-        <link rel="stylesheet" media="screen" type="text/css" href="css/plantillaerror.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="css/plantillaresultado.css" />
     </head>
     <body>
         <div id="cabecera0">

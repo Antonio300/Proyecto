@@ -30,7 +30,7 @@
         </div>
         <div id="invitados">
             <div id="recuadro1">
-                <h4 id= "h3primero"> Amigos invitados: ${numeroInvitados}.</h4>
+                <h5 id= "h3primero"> Amigos invitados: ${numeroInvitados}.</h5>
                 <c:if test="${numeroInvitados != 0}">
                     <ul>
                         <c:forEach items="${invitados}" var="invitado">
@@ -44,7 +44,7 @@
             </div>
             <br>
             <div id="recuadro2">
-                <h4 id= "h3segundo">Elige nuevos amigos.</h4>
+                <h5 id= "h3segundo">Elige nuevos amigos.</h5>
                 <ul>
                     <c:forEach items="${posibles}" var="posible">
                         <ul>
@@ -59,17 +59,15 @@
         <div id="contenido1">
             <div id="recuadro3">
                 <c:if test="${vacio == true}">
-                    <h4 id= "h3contenido" ALIGN ="center">No tienes contenidos.</h4>
+                    <h5 id= "h3contenido" ALIGN ="center">No tienes contenidos.</h5>
                 </c:if>
                 <c:if test="${vacio == false}">
 
-                    <h4 id= "h3tercero" ALIGN ="center">Contenidos del muro de ${usuario.nombre}.</h4>
+                    <h5 id= "h3tercero" ALIGN ="center">Contenidos del muro de ${usuario.nombre}.</h5>
                     <ul>
                         <c:forEach items="${contenidos}" var="contenido">
                             <div id="contenidotext">
-                                <ul>
-                                    ${contenido.texto}
-                                </ul>
+                                ${contenido.texto}
                             </div>
                             <br>
                         </c:forEach>
@@ -91,7 +89,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                               
+
                                 <input type="submit" value="Publicar" />
                             </td>
                         </tr>

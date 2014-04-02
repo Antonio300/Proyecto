@@ -13,23 +13,10 @@ body {
     background-color:AliceBlue;
 } 
 
-A:LINK { 
-    color: #FFFFFF;
-    background:cornflowerblue;   
-}
-
-A:VISITED {
-    color:#000;
-    background:deepskyblue;
-}
-A:ACTIVE { 
-    color: #FFFFFF;
-    background:deepskyblue;   
-}
 
 A:HOVER { 
     color: #FFFFFF;
-    background:orangered;   
+    background:blue;   
 }
 
 #link1 { 

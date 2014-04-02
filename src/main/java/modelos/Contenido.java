@@ -21,7 +21,7 @@ public class Contenido implements Serializable {
     @ManyToOne
     private Usuario usuario;
     @NotNull
-    @Size(min = 3, max = 100)
+    @Size(min = 3, max = 95)
     private String texto;
 
     public Contenido() {
