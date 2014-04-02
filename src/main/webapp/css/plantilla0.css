@@ -1,0 +1,49 @@
+body { 
+    margin: 0;
+    padding: 0;
+} 
+
+#cabecera1 { 
+    margin:5px 5px 5px 5px;   
+    padding: 5px 5px 5px 5px;            
+    border:2px solid Navy; 
+    font-family: Algerian;
+    font-size: 10pt;
+    color: #000;
+    background-color:AliceBlue;
+} 
+
+#centro {  
+    margin:5px 5px;
+    padding: 5px 50px 5px 50px;     
+    border:2px solid Navy; 
+    background-color:appworkspace;
+} 
+
+#identificacion1 {  
+    margin:30px 300px 5px 300px  ;
+    padding: 5px 15px 50px 5px;     
+    border:2px solid Navy; 
+    font-family:Book Antiqua;
+    font-size: 12pt;
+    background-color:AliceBlue;
+} 
+
+#identificacion2 {  
+    margin:5px 300px 30px 300px  ;
+    padding: 5px 15px 50px 5px; 
+    border:2px solid Navy; 
+    font-family:Book Antiqua;
+    font-size: 12pt;
+    background-color:AliceBlue;
+} 
+
+#pie1 { 
+    margin:5px 5px 5px 5px;   
+    padding: 5px 5px 5px 5px;       
+    border:2px solid Navy; 
+    font-family: Algerian;
+    font-size: 10pt;
+    color: #000;
+    background-color:AliceBlue;
+} 

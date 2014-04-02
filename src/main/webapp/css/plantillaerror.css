@@ -1,0 +1,87 @@
+body { 
+    margin: 0;
+    padding: 0;
+
+} 
+#cabecera0 { 
+    margin:5px 5px 5px 5px;   
+    padding: 5px 5px 5px 5px;            
+    border:2px solid Navy; /* Tamaño del borde */
+    font-family: Algerian;
+    font-size: 10pt;
+    color: #000;
+    background-color:AliceBlue;
+} 
+
+A:LINK { 
+    color: #FFFFFF;
+    background:cornflowerblue;   
+}
+
+A:VISITED {
+    color:#000;
+    background:deepskyblue;
+}
+A:ACTIVE { 
+    color: #FFFFFF;
+    background:deepskyblue;   
+}
+
+A:HOVER { 
+    color: #FFFFFF;
+    background:orangered;   
+}
+
+#link1 { 
+    margin:0px 5px 5px 5px;   
+    padding: 5px 5px 5px 580px;       
+    font-family:Times New Roman;
+    font-size: 12pt;
+    color: #000;
+    background-color:AliceBlue;
+} 
+
+#centro {  
+    margin:5px 5px -5px;
+    padding: 5px 30px 5px 25px;     
+    border:2px solid Navy; 
+    background-color:appworkspace;
+} 
+
+
+#cabecera1 {  
+    margin:10px 300px 2px 320px;
+    padding: 5px 15px 30px 100px;     
+    border:2px solid Navy; 
+    background-color:AliceBlue;
+} 
+#error1{  
+    margin:30px 50px 0px -37px;
+    padding: 5px 5px 30px 150px;     
+    border:2px solid Navy; 
+    font-size: 14pt;
+    font-weight:bold;
+    background-color:AliceBlue;
+} 
+#usuario1{  
+    margin:2px 50px 2px -37px;
+    padding: 5px 150px 30px 40px;     
+    border:2px solid Navy; 
+    background-color:AliceBlue;
+} 
+
+#usuario2{  
+    margin:10px 50px 5px -150px;
+    padding: 5px 10px 30px -100px;     
+    border:2px solid Navy; 
+    background-color:AliceBlue;
+} 
+
+#cabecera2 {  
+    margin:5px 300px 15px 320px;
+    padding: 5px 15px 30px 210px; 
+    border:2px solid Navy; 
+    background-color:AliceBlue;
+} 
+
+
