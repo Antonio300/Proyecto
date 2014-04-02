@@ -40,6 +40,7 @@ A:HOVER {
     margin:10px 300px 2px 320px;
     padding: 5px 15px 30px 100px;     
     border:2px solid Navy; 
+    background-color:AliceBlue;
 } 
 #error1{  
     margin:30px 50px 0px -37px;
@@ -50,21 +51,26 @@ A:HOVER {
     background-color:AliceBlue;
 } 
 #usuario1{  
+    font-size: 12pt;
     margin:2px 50px 2px -37px;
-    padding: 5px 150px 30px 40px;     
+    padding: 5px 150px 30px 130px;     
     border:2px solid Navy; 
+    background-color:#FFFFFF;
 } 
 
 #usuario2{  
+    font-size: 12pt;
     margin:10px 50px 5px -150px;
-    padding: 5px 10px 30px -100px;     
+    padding: 5px 10px 30px 90px;     
     border:2px solid Navy; 
-  } 
+    background-color:#FFFFFF;
+} 
 
 #cabecera2 {  
     margin:5px 300px 15px 320px;
     padding: 5px 15px 30px 210px; 
     border:2px solid Navy; 
- } 
+    background-color:AliceBlue;
+} 
 
 
